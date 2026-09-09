@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kegiatan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white; min-height: 100vh; }
+        nav { background: rgba(0,0,0,0.3); padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        nav a:hover { color: #facc15; }
+        .container { max-width: 900px; margin: 40px auto; padding: 20px; }
+        h1 { font-size: 2.5em; color: #facc15; text-align: center; margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .kartu { background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; text-align: center; }
+        .gambar { background: rgba(255,255,255,0.2); height: 180px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 3em; margin-bottom: 10px; }
+        h3 { color: #facc15; margin-bottom: 5px; }
+        p { font-size: 0.95em; opacity: 0.9; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">🏠 Beranda</a> |
+        <a href="profil.html">📋 Profil Kelas</a> |
+        <a href="siswa.html">👥 Daftar Siswa</a> |
+        <a href="jadwal.html">📅 Jadwal</a> |
+        <a href="galeri.html">📸 Galeri</a>
+    </nav>
+
+    <div class="container">
+        <h1>📸 GALERI KEGIATAN KELAS</h1>
+
+        <div class="grid">
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Kegiatan Belajar</h3>
+                <p>Suasana belajar bersama di kelas</p>
+            </div>
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Upacara Senin</h3>
+                <p>Menghormati bendera Merah Putih</p>
+            </div>
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Kerja Bakti</h3>
+                <p>Membersihkan kelas bersama-sama</p>
+            </div>
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Ulang Tahun Teman</h3>
+                <p>Merayakan kebahagiaan bersama</p>
+            </div>
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Piknik / Wisata</h3>
+                <p>Jalan-jalan menambah keakraban</p>
+            </div>
+            <div class="kartu">
+                <div class="gambar">📷</div>
+                <h3>Lomba / Lainnya</h3>
+                <p>Prestasi dan kebersamaan</p>
+            </div>
+        </div>
+
+        <p style="text-align:center; margin-top:30px; font-style:italic;">💡 Ganti ikon 📷 dengan foto asli: simpan foto di folder → ganti bagian ikon dengan &lt;img src="nama-foto.jpg" width="100%"&gt;</p>
+    </div>
+</body>
+</html>
